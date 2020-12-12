@@ -1,0 +1,174 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --txt-main-color: #212121;
+  --txt-second-color: #757575;
+  --txt-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --button-bg-color-: #f5f4fa;
+  --logo-color: #000000;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--txt-main-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Стили для навигации */
+.logo {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .link {
+  color: var(--txt-main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-nav .link {
+  color: var(--txt-second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Стили для index.html */
+
+/* Hero */
+.hero-tittle {
+  color: var(--txt-main-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--txt-white-color);
+}
+
+.button.primary:hover,
+button.primary:focus {
+  background-color: var(--button-bg-color-);
+  color: var(--txt-main-color);
+}
+
+/* Section */
+.section-tittle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-text {
+  color: var(--txt-second-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* FETURES */
+.features-tittle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* TEAM */
+.team {
+  background-color: var(--button-bg-color-);
+}
+
+.team-tittle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.teammate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.teammate-profession {
+  color: var(--txt-second-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--footer-bg-color);
+}
+address {
+  color: var(--txt-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Стили для portfolio.html */
+.button {
+  background-color: var(--button-bg-color-);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--txt-white-color);
+}
+
+/* EXAMPLES */
+.examples-tittle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-text {
+  color: var(--txt-second-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
